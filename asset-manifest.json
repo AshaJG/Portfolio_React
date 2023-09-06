@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio_React/static/css/main.a918a444.css",
-    "main.js": "/Portfolio_React/static/js/main.18d96b82.js",
+    "main.css": "/Portfolio_React/static/css/main.15e9aa63.css",
+    "main.js": "/Portfolio_React/static/js/main.74974f50.js",
+    "static/media/sma.gif": "/Portfolio_React/static/media/sma.9673980dd2d859652145.gif",
     "static/media/high five app.gif": "/Portfolio_React/static/media/high five app.9297a26d0670383e2057.gif",
-    "static/media/p3.jpg": "/Portfolio_React/static/media/p3.93cbe0b2ddbce3a906ba.jpg",
     "static/media/p4.jpg": "/Portfolio_React/static/media/p4.0459ebc2624f77cd9828.jpg",
     "static/media/research.png": "/Portfolio_React/static/media/research.0de9e88980fa716ebe82.png",
     "static/media/commerce.png": "/Portfolio_React/static/media/commerce.d61bd58915e980575c88.png",
     "static/media/mobile.png": "/Portfolio_React/static/media/mobile.c666d7f1a111a1aa8be5.png",
     "static/media/web.png": "/Portfolio_React/static/media/web.4c6d19981760584007b7.png",
-    "static/media/SocialMediaApp.jpg": "/Portfolio_React/static/media/SocialMediaApp.cf68f30aa92f9b689684.jpg",
     "static/media/p5.jpg": "/Portfolio_React/static/media/p5.3c8a0cbfedee6e3026ba.jpg",
     "static/media/p6.jpg": "/Portfolio_React/static/media/p6.9ef4e185238545d93776.jpg",
     "static/media/avatar.png": "/Portfolio_React/static/media/avatar.62ad3babfce75a9ea96a.png",
     "index.html": "/Portfolio_React/index.html",
-    "main.a918a444.css.map": "/Portfolio_React/static/css/main.a918a444.css.map",
-    "main.18d96b82.js.map": "/Portfolio_React/static/js/main.18d96b82.js.map"
+    "main.15e9aa63.css.map": "/Portfolio_React/static/css/main.15e9aa63.css.map",
+    "main.74974f50.js.map": "/Portfolio_React/static/js/main.74974f50.js.map"
   },
   "entrypoints": [
-    "static/css/main.a918a444.css",
-    "static/js/main.18d96b82.js"
+    "static/css/main.15e9aa63.css",
+    "static/js/main.74974f50.js"
   ]
 }
