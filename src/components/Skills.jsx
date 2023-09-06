@@ -31,7 +31,7 @@ const Skills = () => {
       {skills.map(({ id, title, icon }) => (
         <div
           key={id}
-          className="max-w-md rounded-xl overflow-hidden shadow-lg p-6 transition duration-300 ease-in-out transform hover:bg-green-700 hover:-translate-y-1 hover:scale-105"
+          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-6 transition duration-300 ease-in-out transform hover:bg-green-700 hover:-translate-y-1 hover:scale-105"
           style={{
             background: 'linear-gradient(to bottom, #090979, #0084d4)',
           }}

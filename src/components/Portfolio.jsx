@@ -5,19 +5,20 @@ import { FaGithub, FaExternalLinkSquareAlt } from 'react-icons/fa';
 import p1 from "../assets/high five app.gif";
 import p2 from "../assets/sma.gif";
 import p3 from "../assets/p4.jpg";
-import p4 from "../assets/p4.jpg";
+import p4 from "../assets/todo.png";
 import p5 from "../assets/p5.jpg";
 import p6 from "../assets/p6.jpg";
 
 
 const Portfolio = () => {
     const projects = [
-        { id:1, image: p1, title : "High Five Movie App ",Desc:"Developed for you to view current movies, invite your friends and vote on a movie to watch.", FrontEnd: "#HTML, CSS, JS" ,BackEnd:"#Python, Node.JS, MongoDB" , github: "https://github.com/NickMacris/CSE442-A5-GroupProject", demo:"#"},
-        { id:2, image: p2, title : "Social Media App", Desc:"Designed a social media platform for users to create profiles, post pictures and chat online.",FrontEnd:"#HTML, CSS, JS",BackEnd:"#Python, MongoDB",github: "https://github.com/AshaJG/CSE312_304Created", demo:"https://nodejs.org/en/"},
-        // { id:3, image: p3, title : "Messenger App ",Desc:"", FrontEnd:"#HTML, CSS, JS",BackEnd:"#Python",github: "https://github.com", demo:"https://nodejs.org/en/"},
-        { id:4, image: p4, title : "To-do App", Desc:"",FrontEnd:"#React.JS",BackEnd:" ",github: "https://github.com", demo:"https://nodejs.org/en/"},
-        { id:5, image: p4, title : "Currently: Eccommerce Website ", Desc:"",FrontEnd:"#HTML, CSS Tailwind",BackEnd:"#Django", github: "https://github.com", demo:"https://nodejs.org/en/"},
+        { id:1, image: p4, title : "To-do App", Desc:"A simple todo app to help with productivity.",FrontEnd:"#React.JS",BackEnd:" ",github: "https://github.com/AshaJG/Portfolio_React", demo:"https://ashajg.github.io/TodoApp_React/"},
+        { id:2, image: p1, title : "High Five Movie App ",Desc:"Developed for you to view current movies, invite your friends and vote on a movie to watch.", FrontEnd: "#HTML, CSS, JS" ,BackEnd:"#Python, Node.JS, MongoDB" , github: "https://github.com/NickMacris/CSE442-A5-GroupProject", demo:"#"},
+        { id:3, image: p2, title : "Social Media App", Desc:"Designed a social media platform for users to create profiles, post pictures and chat online.",FrontEnd:"#HTML, CSS, JS",BackEnd:"#Python, MongoDB",github: "https://github.com/AshaJG/CSE312_304Created", demo:"#"},
+        { id:4, image: p3, title : "Currently: Eccommerce Website ", Desc:"",FrontEnd:"#HTML, CSS Tailwind",BackEnd:"#Django", github: "https://github.com", demo:"#"},
         // { id:6, image: p6, title : "Upcoming", Desc:"",FrontEnd:" ",BackEnd:" ", github: "https://github.com", demo:"https://nodejs.org/en/"},
+          // { id:3, image: p3, title : "Messenger App ",Desc:"", FrontEnd:"#HTML, CSS, JS",BackEnd:"#Python",github: "https://github.com", demo:"https://nodejs.org/en/"},
+       
     ]
 
   return (

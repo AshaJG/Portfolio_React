@@ -10,12 +10,12 @@ import Footer from "./components/Footer";
 
 function App() {
   //create a state for dark and light mode
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
   <div className={darkMode && "dark"}>
     <Header darkMode = {darkMode} setDarkMode={setDarkMode}/>
-    <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+    <main className= "text-gray-900 dark:text-white bg-white dark:bg-gray-900">
   
       <Hero/>
       <Services/>
