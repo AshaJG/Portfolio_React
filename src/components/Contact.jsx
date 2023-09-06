@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div>   
                 <p className = "max-w-xs md:max-w-lg font-extralight">
-                    lorem ipsum dolor sit amet, consectetur adip
+                    You may connect with me here or leave me a message 😌
                 </p>
             </div>
             <div className = "flex w-full ites-center justify-evenly text-3xl">

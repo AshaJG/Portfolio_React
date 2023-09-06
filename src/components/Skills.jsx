@@ -24,7 +24,7 @@ const Skills = () => {
     <Section
     
     title="Skills"
-    subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt nesciunt fuga rem odio in voluptates aliquid, aspernatur quibusdam ad! Hic aliquam quo onsequatur odio assumenda corrupti. Obcaecati, ullam distinctio?"
+    subtitle="Here are some skills I have learned:"
   >
     <div className="grid gap-3 lg:gap-10 lg:grid-cols-4 xl:grid-cols-4">
    
