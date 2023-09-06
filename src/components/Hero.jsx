@@ -22,14 +22,14 @@ const Hero = () => {
         <h3 className = "py-3 text-2xl"> Software Engineer </h3>
         <p className = "max-w-xl font-light text-gray-500"> 
             Hi <span className = "animate-pulse text-4xl"> 🖐️ </span>
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Natus sunt nesciunt 
-            fuga rem odio in voluptates aliquid, 
-            aspernatur quibusdam ad! Hic aliquam quo 
-            consequatur odio assumenda corrupti. Obcaecati, 
-            ullam distinctio?
+            my name is Ashley Grant. I graduated with a bachelor degree in Computer Science in June 2022 and a master in Management of Information Systems in June 2023.<br/>  <br/>
+            While completing my undergraduate and graduate studies, I was a Teaching Assistant for Introduction to Computer Science 2 and Web Applications courses. <br/>  <br/>
+             In this position, I could assist other students in succeeding in the classes by offering office hours to troubleshoot problems that 
+             may arise in completing projects and reviewing computer science concepts and materials provided through the courses.</p>
+             {/* .<br/>.<br/>While doing that job, I was learning new things each semester and consistently growing my skills, and I loved it.
+             .<br/>It also made me a problem-solver who loves to engage with others in finding problems, debugging their code, and succeeding. This also gave me new opportunities to contribute to past courses by updating project repository codes and adding new project features to work on to improve the student experience.
         </p>
-        {/* social icons  */}
+        social icons  */}
         <div className = "flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3">
             {SOCIAL.map(({ id, link , icon}) => (< a href = {link} key={id} 
                 target = '_blank'
@@ -41,7 +41,7 @@ const Hero = () => {
         {/* avatar and resume section  */}
         <div>
              <img src={avatar} alt="avatar" className = "w-50 h-50 md:w-62 md:h-62 object cover object top bg-gradient-to-b from-purple-800 rounded-xl pt-5" />
-             <a href= "/yash-resume.pdf" download = {true} className = "flex items-center justify-center mt-10 bg-gradient-to-r from-purple-600 to-pink-500 text-white py-2 rounded-lg"> Resume </a>
+             <a href= "/Ashley_Grant_Resume_2023.pdf" download = {true} className = "flex items-center justify-center mt-10 bg-gradient-to-r from-purple-600 to-pink-500 text-white py-2 rounded-lg"> Resume </a>
 
         </div>
            {/* arrow down annimation */}
