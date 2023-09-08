@@ -1,8 +1,6 @@
 import {useState} from "react"; 
 import Header from './components/Header';
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-GDEC05280Z"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+
 
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -10,7 +8,9 @@ import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-GDEC05280Z"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   //create a state for dark and light mode
