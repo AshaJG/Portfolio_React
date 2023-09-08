@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-GDEC05280Z"; // OUR_TRACKING_ID
+const TRACKING_ID = "GG-GDEC05280Z"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
