@@ -26,7 +26,7 @@ const Hero = () => {
             my name is Ashley Grant. I graduated with a bachelor degree in Computer Science in June 2022 and a master in Management of Information Systems in June 2023.<br/>  <br/>
             While completing my undergraduate and graduate studies, I was a Teaching Assistant for Introduction to Computer Science 2 and Web Applications courses. <br/>  <br/>
              In this position, I could assist other students in succeeding in the classes by offering office hours to troubleshoot problems that 
-             may arise in completing projects and reviewing computer science concepts and materials provided through the courses.</p>
+             may arise in completing projects and reviewing computer science concepts and materials provided through the courses. It also allowed me to continously contribute to the projects code repositories and improve my debugging and testing skills.</p>
              {/* .<br/>.<br/>While doing that job, I was learning new things each semester and consistently growing my skills, and I loved it.
              .<br/>It also made me a problem-solver who loves to engage with others in finding problems, debugging their code, and succeeding. This also gave me new opportunities to contribute to past courses by updating project repository codes and adding new project features to work on to improve the student experience.
         </p>

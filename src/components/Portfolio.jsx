@@ -23,7 +23,7 @@ const Portfolio = () => {
 
   return (
    <Section title = "Projects"
-   subtitle =  "These are some of my projects that I have worked and are currently working on. Some are developed with Vanilla CSS,HTML and Javascript for their frontend , while some use frontend Framework like React.JS. Some projects backend are built from scratch with no library or backend framework, while some are built with the Django Framework. Projects displayed below are a combination of group projects and personal projects" >
+   subtitle =  "These are some of my projects that I have worked and are currently working on. Some are developed with Vanilla CSS,HTML and Javascript for their frontend , while some use frontend Framework like React.JS. Some projects backend are built from scratch with no library or backend framework, while some are built with the Django Framework. Projects displayed below are a combination of group projects and personal projects." >
     <div className = "grid gap-8 lg:gap-14 xl:grid-cols-2">
         {projects.map(({id, image, title,Desc,FrontEnd, BackEnd, github, demo}) => (
             <div key={id} className="max-w-xlg flex shadow-lg shadow-blue-600 rounded-2xl overflow-hidden">
