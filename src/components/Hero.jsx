@@ -1,4 +1,5 @@
 import {React, useEffect} from 'react';
+import ReactGA from 'react-ga';
 import {FaTwitter,FaFacebook, FaLinkedin, FaArrowDown, FaGithub} from 'react-icons/fa';
 import avatar from "../assets/ai2_50.jpg";
 
