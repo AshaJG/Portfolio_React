@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useEffect} from 'react';
 import {FaTwitter,FaFacebook, FaLinkedin, FaArrowDown, FaGithub} from 'react-icons/fa';
 import avatar from "../assets/ai2_50.jpg";
 
@@ -10,6 +10,11 @@ const Hero = () => {
         {id:3, link: 'https://twitter.com', icon:<FaTwitter/>},
         {id:4, link: 'https://facebook.com', icon:<FaFacebook/>},
     ];
+
+    useEffect(() => {
+      // non interation , just visits
+      ReactGA.pageview(window.location.pathname);
+    },[]);
   
     // window.addEventListener('scroll', function() {
     //     const downArrow = document.querySelector(".down-arrow");
@@ -17,6 +22,7 @@ const Hero = () => {
     //     else downArrow.classList.remove("hide-down-arrow");
     // });
 
+  
   return (
     <section className = "min-h-screen flex flex-col justify-start items-center p-5 text-center">
         <h2 className="text-5xl text-purple-900 uppercase font-bold"> Ashley Grant </h2>
