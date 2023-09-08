@@ -1,13 +1,14 @@
 import React from 'react';
 import {FaTwitter,FaFacebook, FaLinkedin, FaArrowDown, FaGithub} from 'react-icons/fa';
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/ai2_50.jpg";
 
 const Hero = () => {
     const SOCIAL =[
-        {id:1, link: 'https://twitter.com', icon:<FaTwitter/>,},
-        {id:2, link: 'https://facebook.com', icon:<FaFacebook/>,},
-        {id:3, link:'https://www.linkedin.com/in/ashley-joann-grant/', icon:<FaLinkedin/>},
-        {id:2, link: 'https://github.com/AshaJG', icon:<FaGithub/>,},
+        
+        {id:1, link:'https://www.linkedin.com/in/ashley-joann-grant/', icon:<FaLinkedin/>},
+        {id:2, link: 'https://github.com/AshaJG', icon:<FaGithub/>},
+        {id:3, link: 'https://twitter.com', icon:<FaTwitter/>},
+        {id:4, link: 'https://facebook.com', icon:<FaFacebook/>},
     ];
   
     // window.addEventListener('scroll', function() {
@@ -40,7 +41,8 @@ const Hero = () => {
 
         {/* avatar and resume section  */}
         <div>
-             <img src={avatar} alt="avatar" className = "w-50 h-50 md:w-62 md:h-62 object cover object top bg-gradient-to-b from-purple-800 rounded-xl pt-5" />
+              <img src={avatar} alt="avatar" className = "w-50 h-50 md:w-25 md:h-25 shadow-lg dark:shadow-purple-600  rounded-xl pt-2" />
+             {/* <img src={avatar} alt="avatar" className = "w-50 h-50 md:w-25 md:h-25 object cover object top bg-gradient-to-b from-purple-800 rounded-xl pt-5" /> */}
              <a href= "/Ashley_Grant_Resume_2023.pdf" download = {true} className = "flex items-center justify-center mt-10 bg-gradient-to-r from-purple-600 to-pink-500 text-white py-2 rounded-lg"> Resume </a>
 
         </div>

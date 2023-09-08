@@ -1,4 +1,4 @@
-import {FaPython, FaJava,FaReact, FaDocker, FaGithubSquare, FaDatabase, FaCode } from 'react-icons/fa';
+import {FaPython, FaJava,FaReact, FaDocker, FaGithubSquare, FaDatabase, FaCode, FaCloud } from 'react-icons/fa';
 import React from 'react';
 import Section from './common/Section';
 
@@ -14,6 +14,7 @@ const Skills = () => {
         { id: 7, title: "HTML , CSS ",icon:<FaCode/>},
         { id: 8, title: "Docker ",icon:<FaDocker/>},
         { id: 9, title: "MongoDB , SQL ",icon:<FaDatabase/>},
+        { id: 10, title: "Cloud Deployment",icon:<FaCloud/>},
     ]
    
        
@@ -26,12 +27,12 @@ const Skills = () => {
     title="Skills"
     subtitle="Here are some skills I have learned:"
   >
-    <div className="grid gap-3 lg:gap-10 lg:grid-cols-4 xl:grid-cols-4">
+    <div className="grid gap-5 lg:gap-10 xlg:grid-cols-4 xl:grid-cols-4">
    
       {skills.map(({ id, title, icon }) => (
         <div
           key={id}
-          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-6 transition duration-300 ease-in-out transform hover:bg-green-700 hover:-translate-y-1 hover:scale-105"
+          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-10 transition duration-300 ease-in-out transform hover:bg-green-700 hover:-translate-y-1 hover:scale-105"
           style={{
             background: 'linear-gradient(to bottom, #090979, #0084d4)',
           }}
