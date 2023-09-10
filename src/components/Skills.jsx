@@ -15,13 +15,11 @@ const Skills = () => {
         { id: 8, title: "Docker ",icon:<FaDocker/>},
         { id: 9, title: "MongoDB , SQL ",icon:<FaDatabase/>},
         { id: 10, title: "Cloud Deployment",icon:<FaCloud/>},
+        { id: 11, title: "Data Analysis",icon:<FaCode/>},
+        { id: 10, title: "Product Management",icon:<FaCode/>},
     ]
    
-       
-
   return (
-    
-
     <Section
     
     title="Skills"
@@ -32,7 +30,7 @@ const Skills = () => {
       {skills.map(({ id, title, icon }) => (
         <div
           key={id}
-          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-10 transition duration-300 ease-in-out transform hover:bg-green-700 hover:-translate-y-1 hover:scale-105"
+          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-10 transition duration-300 ease-in-out transform dark:shadow-purple-500  hover:shadow-lg hover:-translate-y-1 hover:scale-105"
           style={{
             background: 'linear-gradient(to bottom, #090979, #0084d4)',
           }}
@@ -44,10 +42,7 @@ const Skills = () => {
         </div>
       ))}
     </div>
-  
   </Section>
-
-  
   );
 };
 
