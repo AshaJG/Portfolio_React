@@ -16,7 +16,7 @@ const Skills = () => {
         { id: 9, title: "MongoDB , SQL ",icon:<FaDatabase/>},
         { id: 10, title: "Cloud Deployment",icon:<FaCloud/>},
         { id: 11, title: "Data Analysis",icon:<FaCode/>},
-        { id: 10, title: "Product Management",icon:<FaCode/>},
+        { id: 12, title: "Product Management",icon:<FaCode/>},
     ]
    
   return (
@@ -30,9 +30,9 @@ const Skills = () => {
       {skills.map(({ id, title, icon }) => (
         <div
           key={id}
-          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-10 transition duration-300 ease-in-out transform dark:shadow-purple-500  hover:shadow-lg hover:-translate-y-1 hover:scale-105"
+          className="max-w-xl rounded-xl overflow-hidden shadow-lg p-8 transition duration-300 ease-in-out transform dark:shadow-blue-500  hover:shadow-lg hover:-translate-y-1 hover:scale-105"
           style={{
-            background: 'linear-gradient(to bottom, #090979, #0084d4)',
+            background: 'linear-gradient(to bottom, #090979, #00d4ff',
           }}
         >
           <div className="text-center">

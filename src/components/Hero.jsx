@@ -31,7 +31,8 @@ const Hero = () => {
             Hi <span className = "animate-pulse text-4xl"> 🖐️ </span>
             my name is Ashley Grant. I am recent college graduate with a degree in Computer Science and Managemnt of Information Systems. <br/><br/> ⭐️ ⭐️ ⭐️ ⭐️ ⭐️<br/><br/>
             During my undergrad and graduate studies I was an Undergrad Teaching Assistant for Introduction to Computer Science 2 and Web Application courses. <br/> <br/> ⭐️ ⭐️ ⭐️ ⭐️ ⭐️<br/><br/>
-            I am trying to code the Meta-Verse   <span className = "animate-spin text-4xl inline-block"> 🧚  🌎 </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 text-2xl"> I am trying to code the Meta-Verse</span>
+            <span className = "animate-spin text-4xl inline-block"> 🧚  🌎 </span>
         </p>
         {/* <div className="flex flex-wrap justify-center py-8 lg:py-16 w-full">
           {cardData.map(({ id, title }) => (
