@@ -16,14 +16,14 @@ const Skills = () => {
         { id: 9, title: "MongoDB , SQL ",icon:<FaDatabase/>},
         { id: 10, title: "Cloud Deployment",icon:<FaCloud/>},
         { id: 11, title: "Data Analysis",icon:<FaCode/>},
-        { id: 12, title: "Product Management",icon:<FaCode/>},
+        { id: 12, title: "Project Management",icon:<FaCode/>},
     ]
    
   return (
     <Section
     
-    title="Skills"
-    subtitle="Here are some skills I have learned:"
+    title="Skills & Tools"
+    subtitle="Here are some skills I have learned and tools I utilized:"
   >
     <div className="grid gap-5 lg:gap-10 xlg:grid-cols-4 xl:grid-cols-4">
    
